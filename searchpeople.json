@@ -1,0 +1,14 @@
+[
+    {
+        "id": "620@pbx.claraconnect.net",
+        "name": "MichiganPolyComVideo",
+        "type": "videosipgw",
+        "avatar": "https://chat.innovationsapplied.com/avatar/wdunning?etag=vE8o8tghttJFDhhbz"
+    },
+    {
+        "id": "620@pbx.claraconnect.net",
+        "name": "MichiganPolyComVoice",
+        "type": "user",
+        "avatar": "https://chat.innovationsapplied.com/avatar/wdunning?etag=vE8o8tghttJFDhhbz"
+    }
+]

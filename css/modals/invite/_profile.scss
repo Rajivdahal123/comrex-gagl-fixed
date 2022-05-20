@@ -1,0 +1,38 @@
+.modal-dialog-form {
+    .profile-form {
+        padding: 20px;
+        .input-item {
+            width: fit-content;
+            margin: auto;
+            .input-form {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+                p {
+                    width: 120px;
+                }
+                input {
+                    padding: 12px;
+                    border-radius: 4px;
+                    font-size: 15px;
+                    outline: none;
+                    border: 1px solid #ccc;
+                    &:focus, &:active {
+                        border-color: #40a9ff;
+                        outline: 0;
+                        box-shadow: 0 0 0 2px rgb(24 144 255 / 20%);
+                    }
+                }
+            }
+            .error {
+                color: red;
+                margin-left: 140px;
+                margin-top: 5px;
+            }
+        }
+        .invite-guest {
+            margin-top: 25px;
+        }
+    }
+}
