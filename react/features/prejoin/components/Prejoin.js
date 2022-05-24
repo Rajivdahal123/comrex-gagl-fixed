@@ -282,11 +282,9 @@ class Prejoin extends Component<Props, State> {
                 .then(res => {
                     console.log("response",res)
                     const moderator = res.data.members.find(item => item.role === 'moderator');
-
                     if (moderator) {
                         window.location.href = moderator.meeting_panther?.fullURL;
                     }
-
                     // if (onSubmit) {
                     //     onSubmit(room);
                     // }
@@ -299,7 +297,6 @@ class Prejoin extends Component<Props, State> {
                         isLoading: false
                     });
                 });
-
         }
     }
 

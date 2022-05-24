@@ -117,7 +117,9 @@ export default class PreMeetingScreen extends PureComponent<Props> {
                             alignItems: 'center',
                             justifyContent: 'space-between'
                         }}>
-
+                            {
+                                console.log("inside pre meeting view")
+                            }
                         <AccountSettingTopView
                             user = { user }
                             avatarUrl = { avatarUrl } />

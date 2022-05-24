@@ -7,7 +7,9 @@ import { IconLogoComrex } from '../../../icons';
 
 
 const AccountSettingTopView = isMod => (
+
     <div
+
         className = { 'account-setting-header' }>
         <div
             className = { `account-comrex account-comrex-500 ${isMod.length === undefined && !isMod.isMod ? 'account-comrex-no-mod' : ''}` }>
@@ -25,6 +27,9 @@ const AccountSettingTopView = isMod => (
                 src = '../../../../../../images/gagl.png'
                 style = {{ height: 59 }} />
         </div>
+        {
+            console.log("ismod is",isMod)
+        }
         {isMod.isMod && <div
             className = { 'account-setting-menu hide-mod-setting' }>
 

@@ -305,6 +305,7 @@ function AddPeopleDialog({
                                    onChange = { event => handleChange(JSON.parse(event.target.value),null, index,"old") }
                                    value={""}
                                 >
+                                    <option></option>
                                     {
                                         previousMembers.map((item,index)=>{
                                             if(item){

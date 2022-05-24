@@ -91,6 +91,7 @@ const WelcomeScreen = (props) => {
             authService
                 .login({ username, password })
                 .then(({ data }) => {
+                    console.log("response",data)
                     localStorage.setItem('auth_token', data.accessToken);
                     localStorage.setItem('refreshToken', data.refreshToken);
                     updateSettings({
